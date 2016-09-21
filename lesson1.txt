@@ -1,0 +1,89 @@
+Course Overview.
+
+       Overview of NLP: [6 minutes] 
+       challenges, applictions, approaches
+       overview of the course, breakdown (15% theory and big picture, hands on 85%)
+
+       Pass/Fail: Take a text and do a basic analysis (number of words, number of sentences, number of uniqe words,
+       top 20 words)
+
+
+       Let’s take a look at some text: 
+       Q_whatProblemsCanWeSolve using this text?
+       A: Topic analysis, sentiment analysis,
+       key phrases, language utilization,
+       document  classification, text similarity
+
+
+
+
+
+       Python Refresher [10 minutes]
+       	 quick show of hands 
+	 Sets, Lists, Dictionaries; Review of python; 
+ 	     Jupyter
+
+      Review of NLP Process: [5 minutes]
+      1. Get text
+      2. Munge, Preprocess text; Structure into data structures
+      3. Language processing: tokenize, words, vector representations, POS, relations
+      4. Analyze text/data structures: train a model, classify, measure distances, similarity
+      5a. Summarize and represent results: graphs, plots, etc. 
+      5b. Model packaging, model scoring
+      
+      
+0. Python refressher
+
+
+1. Download some text:   wget or curl
+Install curl in MacOsx
+brew install curl
+sudo pip install bs4
+
+Options
+wget http://www.angelfire.com/movies/closedcaptioned/
+wget http://debates.org/index.php?page=october-22-2012-the-third-obama-romney-presidential-debate
+
+look at it, it's html
+
+--alternative --  
+copy and paste text
+
+
+2. Munge DPS  SCRIPT 01
+
+ Munge Obama. Split into 2 documents
+
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+
+lets do a beautiful soup script
+
+
+3. Analysis of text in Python Notebook [Python Notebook]
+
+4. Important words in ython SCRIPT 03
+
+   l01s03.py
+
+5. Different words in Python SCRIPT 04
+
+   l01s04.py
+
+6. Munge Dead Poets Society 02
+
+7. Analysis of DPS: In memory l01s05.py  to do n2 poors man dot product
+   cosine similarity
+
+
+8. Review summary, suggested excercises and dismissal
+
+   python
+   a little bit of nltk
+   curl, wget, bs4, re
+   cosine similarity, operator
+   graph maybe
+
+
+
+
+
